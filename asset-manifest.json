@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/css/main.85c90d90.css",
-    "main.js": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/js/main.d70f15cf.js",
-    "static/media/AirbnbCerealBook.woff": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/media/AirbnbCerealBook.d42c6a4d011ab55732b2.woff",
-    "static/media/AirbnbCerealMedium.woff": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/media/AirbnbCerealMedium.8a9ee95760624b68a412.woff",
-    "static/media/AirbnbCerealBold.woff": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/media/AirbnbCerealBold.f286ae85c8aca0aeaa50.woff",
-    "static/media/AirbnbCerealLight.woff": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/media/AirbnbCerealLight.b23120006d8eb043d64a.woff",
-    "static/media/AirbnbCerealExtraBold.woff": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/media/AirbnbCerealExtraBold.1e9cf6ed4a060b4ff232.woff",
-    "static/media/AirbnbCerealBlack.woff": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/media/AirbnbCerealBlack.1b848ef9b3436723dff6.woff",
-    "static/media/spacex.svg": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/media/spacex.e7c40e4fbf962eb4fd766af3f88a1e9c.svg",
-    "index.html": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/index.html",
-    "main.85c90d90.css.map": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/css/main.85c90d90.css.map",
-    "main.d70f15cf.js.map": "/%E2%80%8Bhttps://hdror.github.io/SpaceX%E2%80%8B/static/js/main.d70f15cf.js.map"
+    "main.css": "/SpaceX/static/css/main.9a24f802.css",
+    "main.js": "/SpaceX/static/js/main.9f2abcf6.js",
+    "static/media/AirbnbCerealBook.woff": "/SpaceX/static/media/AirbnbCerealBook.d42c6a4d011ab55732b2.woff",
+    "static/media/AirbnbCerealMedium.woff": "/SpaceX/static/media/AirbnbCerealMedium.8a9ee95760624b68a412.woff",
+    "static/media/AirbnbCerealBold.woff": "/SpaceX/static/media/AirbnbCerealBold.f286ae85c8aca0aeaa50.woff",
+    "static/media/AirbnbCerealLight.woff": "/SpaceX/static/media/AirbnbCerealLight.b23120006d8eb043d64a.woff",
+    "static/media/AirbnbCerealExtraBold.woff": "/SpaceX/static/media/AirbnbCerealExtraBold.1e9cf6ed4a060b4ff232.woff",
+    "static/media/AirbnbCerealBlack.woff": "/SpaceX/static/media/AirbnbCerealBlack.1b848ef9b3436723dff6.woff",
+    "static/media/spacex.svg": "/SpaceX/static/media/spacex.e7c40e4fbf962eb4fd766af3f88a1e9c.svg",
+    "index.html": "/SpaceX/index.html",
+    "main.9a24f802.css.map": "/SpaceX/static/css/main.9a24f802.css.map",
+    "main.9f2abcf6.js.map": "/SpaceX/static/js/main.9f2abcf6.js.map"
   },
   "entrypoints": [
-    "static/css/main.85c90d90.css",
-    "static/js/main.d70f15cf.js"
+    "static/css/main.9a24f802.css",
+    "static/js/main.9f2abcf6.js"
   ]
 }
