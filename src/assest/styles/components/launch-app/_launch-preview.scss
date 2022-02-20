@@ -1,0 +1,20 @@
+.preview-card {
+    flex-direction: column;
+    border-radius: 15px;
+    background-color:  $clr12;
+    padding: 20px;
+    align-items: center;
+    color: $clr6;
+    text-shadow: 0 0.3px 0 $clr6;
+
+    img {
+        object-fit: contain;
+        object-position: bottom;
+        height: 100%;
+        margin-block-end: 10px;
+    }
+
+    h1 {
+        font-size: rem(18px);
+    }
+}

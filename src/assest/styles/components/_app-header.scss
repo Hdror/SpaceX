@@ -1,0 +1,60 @@
+.app-header {
+    height: 70px;
+    background-color: $clr2;
+    margin-block-end: 30px;
+    color: $clr6;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+
+    .main-header {
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 0.3px 0 white;
+
+        .logo {
+            font-size: rem(24px);
+            cursor: pointer;
+            font-family: f-book;
+            &:hover {
+                .animate-item {
+                    animation: rotate 4s ease-in-out infinite;
+                }
+            }
+            .animate-item {
+                transform-style: preserve-3d;
+                animation: rotate 4s ease-in-out 2;
+                transition: color 0.5s cubic-bezier(0.05, 0, 0, 1);
+                @keyframes rotate {
+                    from {
+                        transform: rotatey(0deg);
+                        transition: color 0.5s cubic-bezier(0.05, 0, 0, 1);
+                    }
+                    from {
+                        transform: rotatey(360deg);
+                    }
+                }
+            }
+        }
+
+        a {
+            padding: 5px 20px 0px;
+            height: 100%;
+            color: $clr6;
+            letter-spacing: 0.1em;
+            border-left: 1px solid white;
+            transition: 0.5s cubic-bezier(0.05, 0, 0, 1);
+
+            &:last-child {
+                padding-inline-end: 0px;
+            }
+
+            &:hover {
+                height: 100%;
+                // padding-bottom: 20px;
+            }
+        }
+    }
+}

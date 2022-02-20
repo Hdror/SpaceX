@@ -1,0 +1,81 @@
+.launch-details {
+    background-color: $clr2;
+    .details-container {
+        display: flex;
+        flex-direction: column;
+
+        iframe {
+            min-height: 500px;
+            border-radius: 8px;
+        }
+
+        .info-container {
+            position: relative;
+            gap: 20px;
+            // padding: 20px;
+            border-radius: 8px;
+            justify-content: space-between;
+            margin-block-end: 70px;
+
+            .text-container {
+                width: 50%;
+                background-color: $clr12;
+                padding: 20px 20px 80px;
+                border-radius: 8px;
+                font-family: f-medium;
+                h1 {
+                    font-size: rem(20px);
+                    color: $clr2;
+                    margin-block-end: 20px;
+                }
+
+                .info-text {
+                    line-height: 1.7em;
+                    color: $clr3;
+                    margin-block-end: 20px;
+                }
+
+                .fa {
+                    position: absolute;
+                    bottom: 20px;
+                    height: 40px;
+                    width: 40px;
+                    padding: 10px 5px;
+                    border-radius: 5px;
+                    color: $clr2;
+                    background-color: $clr5;
+                    transition: 0.5s cubic-bezier(0.05, 0, 0, 1);
+                    box-sizing:border-box;
+
+
+
+
+                    &:hover {
+                        color: $clr5;
+                        background-color: $clr2;
+                    }
+                }
+
+                .spacex-logo {
+                    left: 75px;
+                    width: 100px;
+                    padding: 10px 10px;
+                    padding-block-end: 12px
+                }
+            }
+            .img-container {
+                background-color: $clr12;
+                border-radius: 8px;
+                img {
+                    padding: 20px 8vw;
+                    object-fit: contain;
+                    max-height: 45vh;
+                    align-self: center;
+                    // width: 35vw;
+                    // width: unset;
+                    padding-block-start: 28px;
+                }
+            }
+        }
+    }
+}

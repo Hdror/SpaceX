@@ -1,0 +1,28 @@
+.filter-bar {
+    margin-block-end: 30px;
+    // position: relative;
+    .filter-bar-container {
+        // position:fixed;
+        top: 90px;
+        // left: 0;
+        gap: 30px;
+        > div {
+            border: 1px solid $clr4;
+            padding: 8px 24px;
+            border-radius: 100vw;
+            cursor: pointer;
+            background-color: $clr13;
+            transition: background-color 0.5s cubic-bezier(0.05, 0, 0, 1);
+
+            &:hover {
+                background-color: #0000002a;
+                // border-color: $clr2;
+            }
+
+            &.active {
+                background-color: $clr10;
+                color: $clr5;
+            }
+        }
+    }
+}
