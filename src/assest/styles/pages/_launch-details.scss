@@ -12,17 +12,25 @@
         .info-container {
             position: relative;
             gap: 20px;
+            flex-direction: column;
+            @include for-tablet-layout {
+                flex-direction: row;
+            }
             // padding: 20px;
             border-radius: 8px;
             justify-content: space-between;
             margin-block-end: 70px;
+            
 
             .text-container {
-                width: 50%;
+                position: relative;
                 background-color: $clr12;
                 padding: 20px 20px 80px;
                 border-radius: 8px;
                 font-family: f-medium;
+                @include for-tablet-layout {
+                    width: 50%;
+                }
                 h1 {
                     font-size: rem(20px);
                     color: $clr2;
@@ -38,6 +46,7 @@
                 .fa {
                     position: absolute;
                     bottom: 20px;
+
                     height: 40px;
                     width: 40px;
                     padding: 10px 5px;
@@ -45,11 +54,7 @@
                     color: $clr2;
                     background-color: $clr5;
                     transition: 0.5s cubic-bezier(0.05, 0, 0, 1);
-                    box-sizing:border-box;
-
-
-
-
+                    box-sizing: border-box;
                     &:hover {
                         color: $clr5;
                         background-color: $clr2;
@@ -60,7 +65,7 @@
                     left: 75px;
                     width: 100px;
                     padding: 10px 10px;
-                    padding-block-end: 12px
+                    padding-block-end: 12px;
                 }
             }
             .img-container {

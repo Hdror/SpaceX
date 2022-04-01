@@ -4,7 +4,7 @@ import {localStorageServices} from '../services/stroage.service.js'
 const STORAGE_KEY = 'launchesDB'
 
 export function loadLaunches() {
-    return (dispatch, getState) => {
+    return (dispatch) => {
         launchService.getLaunches()
             .then(launches => {
                 localStorageServices.saveToStorage(STORAGE_KEY, launches)
@@ -15,14 +15,3 @@ export function loadLaunches() {
     }
 }
 
-export function removeLaunches(launchId) {
-    return (dispatch) => {
-        launchService.remove(launchId)
-            .then(() => {
-                dispatch({ type: 'REMOVE_LAUNCHES'.launchId })
-            })
-            .catch(err => {
-                console.log('Can\'t delete launch ', err)
-            })
-    }
-}
