@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SpaceX/static/css/main.9a24f802.css",
-    "main.js": "/SpaceX/static/js/main.9f2abcf6.js",
+    "main.css": "/SpaceX/static/css/main.6c06ba8f.css",
+    "main.js": "/SpaceX/static/js/main.cd3c5073.js",
     "static/media/AirbnbCerealBook.woff": "/SpaceX/static/media/AirbnbCerealBook.d42c6a4d011ab55732b2.woff",
     "static/media/AirbnbCerealMedium.woff": "/SpaceX/static/media/AirbnbCerealMedium.8a9ee95760624b68a412.woff",
     "static/media/AirbnbCerealBold.woff": "/SpaceX/static/media/AirbnbCerealBold.f286ae85c8aca0aeaa50.woff",
@@ -10,11 +10,11 @@
     "static/media/AirbnbCerealBlack.woff": "/SpaceX/static/media/AirbnbCerealBlack.1b848ef9b3436723dff6.woff",
     "static/media/spacex.svg": "/SpaceX/static/media/spacex.e7c40e4fbf962eb4fd766af3f88a1e9c.svg",
     "index.html": "/SpaceX/index.html",
-    "main.9a24f802.css.map": "/SpaceX/static/css/main.9a24f802.css.map",
-    "main.9f2abcf6.js.map": "/SpaceX/static/js/main.9f2abcf6.js.map"
+    "main.6c06ba8f.css.map": "/SpaceX/static/css/main.6c06ba8f.css.map",
+    "main.cd3c5073.js.map": "/SpaceX/static/js/main.cd3c5073.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a24f802.css",
-    "static/js/main.9f2abcf6.js"
+    "static/css/main.6c06ba8f.css",
+    "static/js/main.cd3c5073.js"
   ]
 }
